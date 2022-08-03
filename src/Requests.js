@@ -1,4 +1,4 @@
-const key = 'c5bf91db98967c6d08caa913f50328fc'
+const key = process.env.REACT_APP_TDMB_KEY
 
 const requests = {
     popular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}`,
